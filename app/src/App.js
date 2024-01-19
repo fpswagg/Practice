@@ -1,7 +1,9 @@
 function App() {
- return (<div>
+ return (<main>
+      <h1>The App of the Year 2024</h1>
+
       
-  </div>)
+  </main>)
 }
 
 export default App;
