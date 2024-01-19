@@ -1,4 +1,23 @@
 body {
-    background: url("back.jpg") no-repeat;
-    background-size: 100%;
+    color: aliceblue;
+    background-color: black;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    animation: turn 25s linear 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes turn {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
 }
