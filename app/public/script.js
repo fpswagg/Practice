@@ -11,4 +11,13 @@ function update() {
             starBox.style.left = `${-(Math.round(Math.random()*window.innerWidth))}px`;
 
     });
+    
+    // const mouseArea = document.getElementById("mouse-box");
+
+    // if (mouseArea != null && mouseArea != undefined) {
+    //     mouseArea.style.left = `${x}px`;
+    //     mouseArea.style.top = `${y}px`;
+    // }
+
+    
 }

@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
 
 import StarBox from "./reacts/StarBox";
+import SpacePillar from "./reacts/SpacePillar";
+import MouseArea from "./reacts/MouseArea";
 
 function App() {
   // let [stars, setStars] = useState([]);
@@ -13,10 +15,15 @@ function App() {
 
   let stars = []; for (let i = 0; i < 20; i++) stars = [...stars, <StarBox key={i} />];
 
-  return (<main>
+  return (  <main>
+    
     <div id="star-main">{stars}</div>
 
-    <h1>The App of the Year 2024</h1>
+    <SpacePillar />
+
+    <MouseArea />
+
+    <h1><span>The App of the Year 2024</span></h1>
 
   </main>)
 }
