@@ -1,0 +1,18 @@
+.star-box {
+    border-radius: 5px;
+    background-color: lightskyblue;
+
+    animation: star-animation 100ms linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes star-animation {
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0.25);
+    }
+}
+
