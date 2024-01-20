@@ -4,7 +4,7 @@ import StarBox from "./reacts/StarBox";
 import SpacePillar from "./reacts/SpacePillar";
 import MouseArea from "./reacts/MouseArea";
 
-function App() {
+function App( props ) {
   // let [stars, setStars] = useState([]);
 
   //const newStar = () => setStars([...stars, <StarBox key={Date.now()} />]);

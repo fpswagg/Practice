@@ -1,6 +1,6 @@
 import "../styles/SpacePillar.css";
 
-export default function SpacePillar( { size = 100 }) {
+export default function SpacePillar( { location, size = 100 }) {
     const style = {
         position: "absolute",
         left: "0px",
